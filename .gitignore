@@ -1,0 +1,26 @@
+# dependencies / build (legacy Vite stack)
+node_modules/
+dist/
+dist-chrome/
+dist-firefox/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# local agent / planning scratch (not part of the extension)
+.superpowers/
+.cursor/
+docs/superpowers/
+
+# icon design sources (extension only needs 16/48/128)
+icons/icon-source.png
+icons/icon-source-alt.png
+icons/icon-vector.svg
+icons/icon256.png

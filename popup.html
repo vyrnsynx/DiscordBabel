@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DiscordBabel</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <section id="screenMain" class="screen">
+    <header class="hdr">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">
+          <img src="icons/icon48.png" width="28" height="28" alt="">
+        </span>
+        <div class="brand-text">
+          <h1 data-i18n="appName">DiscordBabel</h1>
+          <p class="brand-sub" id="statusLine">
+            <span data-i18n="automatic">Auto</span>
+            · <kbd id="hkToggle">Alt+T</kbd>
+          </p>
+        </div>
+      </div>
+      <div class="hdr-actions">
+        <button type="button" class="icon-btn" id="themeBtn" data-i18n-title="theme" aria-label="Theme">☾</button>
+        <button type="button" class="icon-btn" id="aboutBtn" data-i18n-title="about" aria-label="About">ⓘ</button>
+      </div>
+    </header>
+
+    <p id="csHint" class="banner" hidden></p>
+
+    <label class="power" id="powerRow">
+      <span class="power-copy">
+        <strong data-i18n="translator">Translator</strong>
+        <small id="powerHint" data-i18n="translatorOn">Translator on</small>
+      </span>
+      <input type="checkbox" id="enabled" class="switch" role="switch">
+    </label>
+
+    <div class="panel">
+      <div class="panel-label" data-i18n="sectionLang">Languages</div>
+      <button type="button" class="nav-row" id="openTargetLang">
+        <span data-i18n="translateTo">Translate to</span>
+        <span class="nav-val"><span id="targetLangLabel">English</span></span>
+      </button>
+      <button type="button" class="nav-row" id="openUnderstood">
+        <span data-i18n="understoodLangs">Languages I understand</span>
+        <span class="nav-val"><span id="understoodLabel">Only my language</span></span>
+      </button>
+    </div>
+
+    <div class="panel">
+      <div class="panel-label" data-i18n="sectionAppear">Appearance</div>
+      <div class="field">
+        <span class="field-lab" data-i18n="translationStyle">Translation style</span>
+        <div class="chips" id="styleDots"></div>
+      </div>
+      <div class="field">
+        <span class="field-lab" data-i18n="textColor">Text color</span>
+        <div class="chips colors" id="colorDots"></div>
+      </div>
+      <div class="field">
+        <span class="field-lab" data-i18n="fontStyle">Font</span>
+        <div class="chips fonts" id="fontDots"></div>
+      </div>
+      <label class="nav-row switch-row">
+        <span data-i18n="replaceOriginal">Replace original</span>
+        <input type="checkbox" id="replaceOriginal" class="switch" role="switch">
+      </label>
+      <p class="hint" data-i18n="replaceHint">Click 🌐 to show original</p>
+    </div>
+
+    <div class="panel" id="outgoingPanel">
+      <div class="panel-label" data-i18n="sectionWrite">Write</div>
+      <label class="nav-row switch-row">
+        <span data-i18n="translateMine">Translate my messages</span>
+        <input type="checkbox" id="outgoingEnabled" class="switch" role="switch">
+      </label>
+      <button type="button" class="nav-row" id="openOutgoingLang">
+        <span data-i18n="outgoingTo">Translate my messages to</span>
+        <span class="nav-val"><span id="outgoingLangLabel">English</span></span>
+      </button>
+      <p class="hint">
+        <span data-i18n="outgoingHint">Auto-detect input language.</span>
+        <span id="outgoingHotkeyHint"></span>
+      </p>
+    </div>
+
+    <div class="panel" id="serviceList">
+      <div class="panel-label" data-i18n="sectionService">Service</div>
+      <label class="svc" data-svc="free">
+        <input type="radio" name="service" value="free">
+        <span class="svc-body">
+          <strong data-i18n="svcFree">Google + MyMemory (Free)</strong>
+        </span>
+      </label>
+      <label class="svc" data-svc="edgevolc">
+        <input type="radio" name="service" value="edgevolc">
+        <span class="svc-body">
+          <strong data-i18n="svcEdge">Edge + Volcengine (Free)</strong>
+          <small data-i18n="svcEdgeHint">For regions without Google</small>
+        </span>
+      </label>
+      <label class="svc" data-svc="deepl">
+        <input type="radio" name="service" value="deepl">
+        <span class="svc-body">
+          <strong data-i18n="svcDeepl">DeepL</strong>
+          <small id="deeplStatus"></small>
+          <span class="svc-extra">
+            <input type="password" id="deeplKey" class="key-input" placeholder="xxxxxxxx:fx" autocomplete="off">
+            <button type="button" class="linkish" id="saveDeepl" data-i18n="saveKey">Save key</button>
+          </span>
+        </span>
+      </label>
+      <label class="svc" data-svc="ai">
+        <input type="radio" name="service" value="ai">
+        <span class="svc-body">
+          <strong data-i18n="svcAi">AI model</strong>
+          <small id="aiStatus"></small>
+          <span class="svc-extra">
+            <button type="button" class="linkish" id="openAiSetup" data-i18n="configureAi">Configure AI ›</button>
+          </span>
+        </span>
+      </label>
+    </div>
+
+    <footer class="ftr">
+      <button type="button" class="ftr-link" id="openUiLang">
+        <span data-i18n="uiLanguage">Interface language</span>
+        <span id="uiLangLabel">Auto</span>
+      </button>
+      <span class="ftr-ver" id="ftrVer">v0.0.1</span>
+    </footer>
+  </section>
+
+  <section id="screenLang" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 id="langTitle" data-i18n="translateTo">Translate to</h2>
+    </header>
+    <div class="search-wrap">
+      <input type="search" id="langSearch" data-i18n-placeholder="searchLang" placeholder="Search" autocomplete="off">
+    </div>
+    <div id="langList" class="list"></div>
+  </section>
+
+  <section id="screenUiLang" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="uiLanguage">Interface language</h2>
+    </header>
+    <div class="search-wrap">
+      <input type="search" id="uiLangSearch" data-i18n-placeholder="searchLang" placeholder="Search" autocomplete="off">
+    </div>
+    <div id="uiLangList" class="list"></div>
+  </section>
+
+  <section id="screenUnderstood" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="understoodLangs">Languages I understand</h2>
+    </header>
+    <p class="sub-cap" data-i18n="understoodCap"></p>
+    <label class="panel nav-row switch-row tight">
+      <span data-i18n="onlyMyTarget">Only my target language</span>
+      <input type="checkbox" id="understoodMine" class="switch" role="switch">
+    </label>
+    <div class="search-wrap">
+      <input type="search" id="understoodSearch" data-i18n-placeholder="searchLang" placeholder="Search" autocomplete="off">
+    </div>
+    <div id="understoodList" class="list"></div>
+  </section>
+
+  <section id="screenAi" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="svcAi">AI</h2>
+    </header>
+    <div class="panel">
+      <button type="button" class="nav-row" id="openProvider">
+        <span data-i18n="provider">Provider</span>
+        <span class="nav-val"><span id="providerLabel">Choose</span></span>
+      </button>
+      <button type="button" class="nav-row" id="openModel">
+        <span data-i18n="model">Model</span>
+        <span class="nav-val"><span id="modelLabel">Choose</span></span>
+      </button>
+      <div id="tdOauthBox" class="td-oauth" hidden>
+        <p class="hint" data-i18n="tdOauthHint"></p>
+        <div class="pad td-actions">
+          <button type="button" class="btn btn-ghost" id="tdAuthorize" data-i18n="tdAuthorize">Authorize TokenDance</button>
+        </div>
+        <label class="stack-field">
+          <span data-i18n="tdAuthCode">Authorization code</span>
+          <input type="text" id="tdAuthCode" autocomplete="off" spellcheck="false">
+        </label>
+        <div class="pad">
+          <button type="button" class="btn" id="tdExchange" data-i18n="tdExchange">Exchange code for key</button>
+        </div>
+        <p class="hint" id="tdOauthStatus" hidden></p>
+      </div>
+      <label class="stack-field">
+        <span><span data-i18n="apiKey">API key</span> <small data-i18n="apiKeyLocal"></small></span>
+        <input type="password" id="aiKey" placeholder="sk-..." autocomplete="off">
+      </label>
+      <p class="hint" data-i18n="aiHint"></p>
+      <div class="pad">
+        <button type="button" class="btn" id="saveAi" data-i18n="save">Save</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenProvider" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="provider">Provider</h2>
+    </header>
+    <div id="providerList" class="list"></div>
+    <div class="panel bottom-pad">
+      <label class="stack-field">
+        <span data-i18n="apiUrl">API URL</span>
+        <input type="url" id="customBaseUrl" placeholder="https://api.example.com/v1">
+      </label>
+      <div class="pad">
+        <button type="button" class="btn" id="useCustomBase" data-i18n="useThisUrl">Use this URL</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenModel" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="model">Model</h2>
+    </header>
+    <div class="pad" id="tdRefreshWrap" hidden>
+      <button type="button" class="btn btn-ghost" id="tdRefreshModels" data-i18n="tdRefreshModels">Refresh models</button>
+    </div>
+    <div id="modelList" class="list"></div>
+    <div class="panel bottom-pad">
+      <label class="stack-field">
+        <span data-i18n="orManual">Or enter manually</span>
+        <input type="text" id="customModel" placeholder="model-id">
+      </label>
+      <div class="pad">
+        <button type="button" class="btn" id="useCustomModel" data-i18n="useThisModel">Use this model</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenAbout" class="screen" hidden>
+    <header class="sub-hdr">
+      <button type="button" class="back" data-back data-i18n="back">‹ Back</button>
+      <h2 data-i18n="about">About</h2>
+    </header>
+    <div class="panel about">
+      <div class="about-brand">
+        <img src="icons/icon48.png" width="40" height="40" alt="">
+        <div>
+          <strong data-i18n="appName">DiscordBabel</strong>
+          <span id="aboutVer">v0.0.1</span>
+        </div>
+      </div>
+      <p class="hint" data-i18n="aboutBody"></p>
+    </div>
+  </section>
+
+  <script src="languages.js"></script>
+  <script src="i18n-messages.js"></script>
+  <script src="i18n.js"></script>
+  <script src="hotkeys.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
