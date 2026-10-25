@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-v0.0.1-5865F2?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/version-v0.0.2-5865F2?style=flat-square">
   <img alt="Manifest V3" src="https://img.shields.io/badge/Manifest-V3-5865F2?style=flat-square">
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-23A559?style=flat-square">
   <img alt="UI languages" src="https://img.shields.io/badge/UI-45%2B%20locales-1E1F22?style=flat-square">
@@ -28,6 +28,10 @@ Chat across languages without leaving Discord. Incoming messages translate as yo
 ## Features
 
 - **Inbound** — auto-translate messages in view; click to show original or force-translate
+- **Channel list** — category and channel names in the server sidebar
+- **Announcements & forums** — post cards, thread titles, tags, channel topics, and Components V2 text
+- **Server events** — live and scheduled event names in the sidebar
+- **In-place labels** — tags and titles replace in situ; hover to see the original
 - **Understood languages** — keep selected languages as-is
 - **Outbound preview** — Enter opens a send/keep dialog (follows light/dark theme)
 - **Styles** — code-block, soft, accent, contrast, minimal; color & font options

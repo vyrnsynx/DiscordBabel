@@ -13,6 +13,9 @@
     outgoingEnabled: false,
     outgoingLanguage: 'en',
     displayMode: 'append',
+    translateChannels: true,
+    translateAnnouncements: true,
+    translateEvents: true,
     service: 'free',
     theme: 'auto',
     aiBaseUrl: '',
@@ -131,7 +134,7 @@
   }
 
   function syncVersionLabels() {
-    var ver = 'v0.0.1';
+    var ver = 'v0.0.2';
     try {
       ver = 'v' + chrome.runtime.getManifest().version;
     } catch (e) {
@@ -158,6 +161,9 @@
     $('outgoingEnabled').checked = !!state.outgoingEnabled;
     $('outgoingPanel').classList.toggle('is-off', !state.outgoingEnabled);
     $('replaceOriginal').checked = state.displayMode === 'replace';
+    $('translateChannels').checked = state.translateChannels !== false;
+    $('translateAnnouncements').checked = state.translateAnnouncements !== false;
+    $('translateEvents').checked = state.translateEvents !== false;
     $('targetLangLabel').textContent = langLabel(state.targetLanguage);
     $('outgoingLangLabel').textContent = langLabel(state.outgoingLanguage);
     $('understoodLabel').textContent = state.understoodMode === 'mine' ?
@@ -577,6 +583,18 @@
     persist({
       displayMode: $('replaceOriginal').checked ? 'replace' : 'append',
     });
+  });
+  $('translateChannels').addEventListener('change', function() {
+    persist({translateChannels: $('translateChannels').checked})
+        .then(renderMain);
+  });
+  $('translateAnnouncements').addEventListener('change', function() {
+    persist({translateAnnouncements: $('translateAnnouncements').checked})
+        .then(renderMain);
+  });
+  $('translateEvents').addEventListener('change', function() {
+    persist({translateEvents: $('translateEvents').checked})
+        .then(renderMain);
   });
 
   $('openTargetLang').addEventListener('click', function() {

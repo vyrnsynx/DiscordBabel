@@ -109,7 +109,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "zh_CN": {
     "appName": "DiscordBabel",
@@ -218,7 +224,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "白色",
     "uiLanguage": "界面语言",
     "uiAuto": "自动（跟随浏览器）",
-    "failedPrefix": "失败 — "
+    "failedPrefix": "失败 — ",
+    "translateChannels": "翻译频道列表",
+    "translateChannelsHint": "翻译服务器侧栏里的分类和频道名",
+    "translateAnnouncements": "翻译公告与论坛帖",
+    "translateAnnouncementsHint": "翻译公告/论坛卡片、标签、帖子标题、嵌入标题和频道说明",
+    "translateEvents": "翻译服务器活动",
+    "translateEventsHint": "翻译侧栏里进行中和已安排的活动名称"
   },
   "zh_TW": {
     "appName": "DiscordBabel",
@@ -294,7 +306,7 @@ var DB_I18N_MESSAGES = {
     "no-key": "缺少 API 金鑰",
     "rejected": "API 金鑰被拒絕",
     "save": "儲存",
-    "aboutBody": "免費開源 Discord 翻譯擴充功能。請求直連你選擇的服務商，金鑰不離開本機。",
+    "aboutBody": "非官方開源 Discord 翻譯擴充功能，與 Discord Inc. 無關。請求直連你選擇的服務商，金鑰不離開本機。",
     "previewTitle": "翻譯預覽",
     "previewOriginal": "原文",
     "previewWillSend": "將傳送為：",
@@ -327,7 +339,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "白色",
     "uiLanguage": "介面語言",
     "uiAuto": "自動（跟隨瀏覽器）",
-    "failedPrefix": "失敗 — "
+    "failedPrefix": "失敗 — ",
+    "translateChannels": "翻譯頻道列表",
+    "translateChannelsHint": "翻譯伺服器側欄中的分類與頻道名稱",
+    "translateAnnouncements": "翻譯公告與論壇貼文",
+    "translateAnnouncementsHint": "翻譯公告／論壇卡片、標籤、貼文標題、嵌入標題與頻道說明",
+    "translateEvents": "翻譯伺服器活動",
+    "translateEventsHint": "翻譯側欄中進行中與已排程的活動名稱"
   },
   "ja": {
     "appName": "DiscordBabel",
@@ -436,7 +454,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "白",
     "uiLanguage": "UI 言語",
     "uiAuto": "自動（ブラウザ）",
-    "failedPrefix": "失敗 — "
+    "failedPrefix": "失敗 — ",
+    "translateChannels": "チャンネルリストを翻訳",
+    "translateChannelsHint": "サーバーサイドバーのカテゴリとチャンネル名",
+    "translateAnnouncements": "お知らせとフォーラムを翻訳",
+    "translateAnnouncementsHint": "お知らせ／フォーラムカード、タグ、スレッドタイトル、埋め込みタイトル、チャンネルトピック",
+    "translateEvents": "サーバーイベントを翻訳",
+    "translateEventsHint": "サイドバーの開催中・予定イベント名"
   },
   "ko": {
     "appName": "DiscordBabel",
@@ -545,7 +569,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "흰색",
     "uiLanguage": "UI 언어",
     "uiAuto": "자동 (브라우저)",
-    "failedPrefix": "실패 — "
+    "failedPrefix": "실패 — ",
+    "translateChannels": "채널 목록 번역",
+    "translateChannelsHint": "서버 사이드바의 카테고리와 채널 이름",
+    "translateAnnouncements": "공지와 포럼 번역",
+    "translateAnnouncementsHint": "공지/포럼 카드, 태그, 스레드 제목, 임베드 제목, 채널 주제",
+    "translateEvents": "서버 이벤트 번역",
+    "translateEventsHint": "사이드바의 진행 중·예정 이벤트 이름"
   },
   "fr": {
     "appName": "DiscordBabel",
@@ -654,7 +684,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Blanc",
     "uiLanguage": "Langue de l’interface",
     "uiAuto": "Auto (navigateur)",
-    "failedPrefix": "Échec — "
+    "failedPrefix": "Échec — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "de": {
     "appName": "DiscordBabel",
@@ -763,7 +799,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Weiß",
     "uiLanguage": "Oberflächensprache",
     "uiAuto": "Auto (Browser)",
-    "failedPrefix": "Fehler — "
+    "failedPrefix": "Fehler — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "es": {
     "appName": "DiscordBabel",
@@ -872,7 +914,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Blanco",
     "uiLanguage": "Idioma de la interfaz",
     "uiAuto": "Auto (navegador)",
-    "failedPrefix": "Error — "
+    "failedPrefix": "Error — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "pt_BR": {
     "appName": "DiscordBabel",
@@ -981,7 +1029,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Branco",
     "uiLanguage": "Idioma da interface",
     "uiAuto": "Auto (navegador)",
-    "failedPrefix": "Falha — "
+    "failedPrefix": "Falha — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "pt_PT": {
     "appName": "DiscordBabel",
@@ -1090,7 +1144,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Branco",
     "uiLanguage": "Idioma da interface",
     "uiAuto": "Auto (navegador)",
-    "failedPrefix": "Falha — "
+    "failedPrefix": "Falha — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "ru": {
     "appName": "DiscordBabel",
@@ -1199,7 +1259,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Белый",
     "uiLanguage": "Язык интерфейса",
     "uiAuto": "Авто (браузер)",
-    "failedPrefix": "Ошибка — "
+    "failedPrefix": "Ошибка — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "uk": {
     "appName": "DiscordBabel",
@@ -1308,7 +1374,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "Білий",
     "uiLanguage": "Мова інтерфейсу",
     "uiAuto": "Авто (браузер)",
-    "failedPrefix": "Помилка — "
+    "failedPrefix": "Помилка — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "it": {
     "appName": "DiscordBabel",
@@ -1417,7 +1489,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "nl": {
     "appName": "DiscordBabel",
@@ -1526,7 +1604,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "pl": {
     "appName": "DiscordBabel",
@@ -1635,7 +1719,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "tr": {
     "appName": "DiscordBabel",
@@ -1744,7 +1834,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "vi": {
     "appName": "DiscordBabel",
@@ -1853,7 +1949,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "id": {
     "appName": "DiscordBabel",
@@ -1962,7 +2064,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "ar": {
     "appName": "DiscordBabel",
@@ -2071,7 +2179,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "hi": {
     "appName": "DiscordBabel",
@@ -2180,7 +2294,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "th": {
     "appName": "DiscordBabel",
@@ -2289,7 +2409,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Interface language",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "cs": {
     "appName": "DiscordBabel",
@@ -2398,7 +2524,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Jazyk rozhraní",
     "uiAuto": "Auto (prohlížeč)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "sv": {
     "appName": "DiscordBabel",
@@ -2507,7 +2639,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Gränssnittsspråk",
     "uiAuto": "Auto (webbläsare)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "da": {
     "appName": "DiscordBabel",
@@ -2616,7 +2754,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Grænsefladesprog",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "fi": {
     "appName": "DiscordBabel",
@@ -2725,7 +2869,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Käyttöliittymän kieli",
     "uiAuto": "Auto (selain)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "no": {
     "appName": "DiscordBabel",
@@ -2834,7 +2984,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Grensesnittspråk",
     "uiAuto": "Auto (nettleser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "ro": {
     "appName": "DiscordBabel",
@@ -2943,7 +3099,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Limba interfeței",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "hu": {
     "appName": "DiscordBabel",
@@ -3052,7 +3214,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Felület nyelve",
     "uiAuto": "Auto (böngésző)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "el": {
     "appName": "DiscordBabel",
@@ -3161,7 +3329,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Γλώσσα διεπαφής",
     "uiAuto": "Αυτόματο (πρόγραμμα περιήγησης)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "he": {
     "appName": "DiscordBabel",
@@ -3270,7 +3444,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "שפת ממשק",
     "uiAuto": "אוטומטי (דפדפן)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "bg": {
     "appName": "DiscordBabel",
@@ -3379,7 +3559,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Език на интерфейса",
     "uiAuto": "Авто (браузър)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "sk": {
     "appName": "DiscordBabel",
@@ -3488,7 +3674,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Jazyk rozhrania",
     "uiAuto": "Auto (prehliadač)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "sl": {
     "appName": "DiscordBabel",
@@ -3597,7 +3789,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Jezik vmesnika",
     "uiAuto": "Samodejno (brskalnik)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "hr": {
     "appName": "DiscordBabel",
@@ -3706,7 +3904,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Jezik sučelja",
     "uiAuto": "Auto (preglednik)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "lt": {
     "appName": "DiscordBabel",
@@ -3815,7 +4019,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Sąsajos kalba",
     "uiAuto": "Automatinė (naršyklė)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "lv": {
     "appName": "DiscordBabel",
@@ -3924,7 +4134,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Saskarnes valoda",
     "uiAuto": "Automātiski (pārlūks)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "et": {
     "appName": "DiscordBabel",
@@ -4033,7 +4249,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Liidese keel",
     "uiAuto": "Automaatne (brauser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "af": {
     "appName": "DiscordBabel",
@@ -4142,7 +4364,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Koppelvlaktaal",
     "uiAuto": "Outo (blaaier)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "am": {
     "appName": "DiscordBabel",
@@ -4251,7 +4479,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "የበይነገጽ ቋንቋ",
     "uiAuto": "ራስ-ሰር (አሳሽ)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "bn": {
     "appName": "DiscordBabel",
@@ -4360,7 +4594,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "ইন্টারফেস ভাষা",
     "uiAuto": "স্বয়ংক্রিয় (ব্রাউজার)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "fa": {
     "appName": "DiscordBabel",
@@ -4469,7 +4709,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "زبان رابط",
     "uiAuto": "خودکار (مرورگر)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "fil": {
     "appName": "DiscordBabel",
@@ -4578,7 +4824,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Wika ng interface",
     "uiAuto": "Auto (browser)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "sw": {
     "appName": "DiscordBabel",
@@ -4687,7 +4939,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Lugha ya kiolesura",
     "uiAuto": "Otomatiki (kivinjari)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "ca": {
     "appName": "DiscordBabel",
@@ -4796,7 +5054,13 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Idioma de la interfície",
     "uiAuto": "Auto (navegador)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   },
   "ms": {
     "appName": "DiscordBabel",
@@ -4905,6 +5169,12 @@ var DB_I18N_MESSAGES = {
     "colorWhite": "White",
     "uiLanguage": "Bahasa antaramuka",
     "uiAuto": "Auto (pelayar)",
-    "failedPrefix": "Failed — "
+    "failedPrefix": "Failed — ",
+    "translateChannels": "Translate channel list",
+    "translateChannelsHint": "Channel and category names in the server sidebar",
+    "translateAnnouncements": "Translate announcements",
+    "translateAnnouncementsHint": "Forum posts, tags, thread titles, embed titles, and channel topics",
+    "translateEvents": "Translate server events",
+    "translateEventsHint": "Live and scheduled event names in the server sidebar"
   }
 };

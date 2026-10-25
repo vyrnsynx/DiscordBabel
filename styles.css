@@ -1,9 +1,21 @@
+.db-channel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.db-event {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .db-translation {
   display: flex;
   align-items: flex-start;
   gap: 8px;
   margin-top: 6px;
+  width: 100%;
+  box-sizing: border-box;
   padding: 8px 10px;
   border-radius: 4px;
   border: 1px solid var(--background-modifier-accent, #3f4147);
